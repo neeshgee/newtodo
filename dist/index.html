@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>To Do</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.0.0-alpha1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/backbone.js/1.2.3/backbone-min.js"></script>
+    <link rel="stylesheet" href="styles/main.css">
+  <body>
+    <span>Forget Me Nots:</span>
+   <div class="container">
+     <div class="todo">
+       <ul id="list">
+       </ul>
+     </div>
+       <form action="search" method="post">
+       <div>
+        <label for="add" class="label">Don't forget to: </label>
+        <input type="text" id="input">
+      </div>
+      <div class="button">
+       <button type="submit">Add</button>
+      </div>
+     </form>
+     <div class="complete">
+       <ul id="completelist">
+       </ul>
+     </div>
+  </div>
+
+
+
+
+  <script src="scripts/main.js"></script>
+  </body>
+</html>
